@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+    min-height: 100hv;
+    margin:0;
+    background-color: #394347;
+}
+#newNoteForm{
+    display: none;
+}
+table {
+    margin: 40px;
+    width: 80%;
+}
+th {
+    padding: 10px;
+}
+#statistic-table {
+    width: 50%;
+}
+#div-button {
+    width: 10%;
+    margin: auto;
+}

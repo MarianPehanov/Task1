@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css"> 
+  <script src="store.js" defer></script>
+  <title>NotesApp</title>
+</head>
+
+<body>
+  <h1>Notes </h1>
+  <table id="notes-table"></table>
+<div id="div-button">
+  <button id="create-note" class="create-note">Crete note</button>
+</div>
+
+  <form id="newNoteForm" >
+    Name <textarea id="name" class="name"> </textarea>
+    Category <select class="category" id="category"><option>Task</option><option>Random Thought</option><option>Idea</option></select>
+    Content <textarea class="content" id="content"></textarea>
+    <button id="saveButton">Save</button>
+  </form>
+
+  <table id="statistic-table"></table>
+
+</body>
+</html>
